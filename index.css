@@ -71,12 +71,12 @@ header{
 
 .nav-item > a {
     display: block;
-    color:#3e388b;
-    /* font-weight: bold; */
+    color:#40196d;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: .875rem;
+    font-weight: 700;
 }
 
 
@@ -97,7 +97,6 @@ header{
     background-color:white;
     min-width: 180px;
     height: auto;
-    /* width: 400px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     list-style-type: none;
@@ -235,7 +234,7 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 10px;
-    color:#463F9E;
+    color:#3e388b;
     transition: background-color 0.3s;
 }
 #flagforcountries img a:hover{
@@ -245,11 +244,14 @@ button {
 .signup-btn{
     background-color: #40196d;
     color: white;
-    font-size: 12px;
+    font-size: .875rem;
+    font-weight: 500;
 }
 .login-btn{
     background-color: white;
-    font-size: 12px;
+    font-size: .875rem;
+    font-weight: 700;
+    color:#3e388b;
 }
 .two:hover, .signup-btn:hover{
     position: relative;
@@ -307,7 +309,7 @@ section{
 }
 
 .intro h1{
-    font-size: 35px;
+    font-size: 3rem;
     color:#40196d;
     font-weight: bolder;
 }
@@ -317,7 +319,7 @@ section{
     margin-top: 100px;
 }
 .intro p{
-    font-size: 15px;
+    font-size: 1.25rem;
     color: rgb(70, 69, 69);
 }
 .apps{
@@ -513,7 +515,7 @@ section{
     background-color: white;
     box-shadow: 0px 0px 5px 0px rgb(226, 225, 225);
     padding: 10px;
-    font-size: 12px;
+    font-size: .975rem;
     color:#40196d;
     font-weight: bolder;
     width: 25%;
@@ -538,7 +540,7 @@ section{
     margin-bottom: 20px;
     margin-left: 310px;
     margin-right: 310px;
-    /* flex-direction: column; */
+
 }
 .third_section{
     max-width: 100%;
@@ -561,13 +563,15 @@ section{
 .third_section .your h1{
     color:#40196d;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 2.25rem;
 }
 .third_section .your p{
     color: rgb(70, 69, 69);
+    font-size: 1rem;
+    line-height: 1.5;
 }
 .third_section a{
-    color:#3e388b;
+    color:#40196d;
 }
 .fourth_section{
     max-width: 100%;
@@ -591,23 +595,27 @@ section{
 }
 .fourth_section h1{
     color:#40196d;
-    font-size: 30px;
     font-weight: bolder;
+    font-size: 2.25rem;
     margin-top: -30px;
 }
 .fourth_section .me p{
     color: rgb(70, 69, 69);
+    font-size: 1rem;
+    line-height: 1.5;
 }
 .fifth_section{
     max-width: 100%;
 }
 .fifth_section .money h1{
     color:#40196d;
-    font-size: 30px;
     font-weight: bolder;
+    font-size: 2.25rem;
 }
 .fifth_section .money p{
     color: rgb(70, 69, 69);
+    font-size: 1rem;
+    line-height: 1.5;
 }
 .fifth_section a{
     color:#3e388b;
@@ -639,16 +647,18 @@ section{
 }
 .sixth_section .but .but1 img{
     width: 300px;
-    margin-top: -50px;
+    margin-top: -10px;
 }
 .sixth_section .but .but2 h1{
     color:#40196d;
-    font-size: 30px;
     font-weight: bolder;
+    font-size: 2.25rem;
 }
 .sixth_section .but .but2 p{
-    color: rgb(70, 69, 69);
     width: 100%;
+    color: rgb(70, 69, 69);
+    font-size: 1rem;
+    line-height: 1.5;
 }
 .seventh_section{
     max-width: 100%;
@@ -663,11 +673,13 @@ section{
 }
 .seventh_section .milk h1{
     color:#40196d;
-    font-size: 30px;
     font-weight: bolder;
+    font-size: 2.25rem;
 }
 .seventh_section .milk p{
     color: rgb(70, 69, 69);
+    font-size: 1rem;
+    line-height: 1.5;
 }
 .seventh_section img{
     width: 400px;
@@ -703,10 +715,11 @@ section{
     min-width: 30%;
     height: 260px;
     border: 1px solid white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(177, 175, 175, 0.1);
     margin-right: 20px;
     text-align: center;
-    font-size: 12px;
+    font-size: .9rem;
+    line-height: 1.0;
     word-spacing: 5px;
     color:gray;
     padding: 5px;
@@ -825,23 +838,25 @@ tbody td{
     
 }
 .moreforyou .foryou{
-    box-shadow: 0 5px 5px 5px  rgba(114, 113, 113, 0.1); /* Subtle shadow */
+    box-shadow: 0 5px 5px 5px  rgba(206, 205, 205, 0.1); /* Subtle shadow */
     width: 25%;
     padding: 20px;
-    height: 250px;
+    height: auto;
+    margin: 10px;
 }
 .moreforyou .foryou h1{
     font-size:25px;
-    color:hsl(268, 63%, 26%);
     color:#40196d;
 }
 .moreforyou .foryou p{
-    font-size: 15px;
     color: gray;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 .moreforyou .foryou a{
     font-weight: bold;
     color:#3e388b;
+    font-size: 14px;
 }
 .semi_home{
     width: 80%;
@@ -854,10 +869,14 @@ tbody td{
     box-shadow: 0 15px 15px 0 rgb(231, 196, 231); /* Subtle shadow */
 }
 .seme_home h1{
-    font-size: 40px;
     font-weight: bolder;
     color:#40196d;
     margin-top: 60px;
+    font-size: 2.25rem;
+    line-height: 1.38;
+}
+.semi_home p{
+    font-size: 14px;
 }
 .seme_home img{
     display: none;
@@ -884,7 +903,7 @@ tbody td{
 }
 .trios p{
     font-size: 12px;
-    color: rgb(90, 89, 89);
+    color: #979797;
 }
 .last .un{
     margin-top: 45px;
@@ -903,9 +922,10 @@ tbody td{
     
 }
 .three_logos #produ{
-    color:rgb(70, 68, 68);
+    color: #979797;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-size: 12.6px;
 }
 .three_logos p #market{
     margin-top: -10px;
@@ -924,10 +944,11 @@ tbody td{
 .country h3{
     color:#40196d;
     margin-left: 8px;
+    margin-bottom: 10px;
 }
 .country p{
     font-size: 13px;
-    color: rgb(70, 69, 69);
+    color: #979797;
     margin: 10px;
     /* font-weight: bolder; */
 }
@@ -944,7 +965,7 @@ tbody td{
 footer .foot{
     display: flex;
     flex-direction: column;
-    color: gray;
+    color: #979797;
     font-size: 12px;
     max-width: 100%;
     margin-top: 30px;
@@ -1157,6 +1178,12 @@ footer .foot{
     
 }
 
+@media (max-width: 1061px){
+    .sixth_section, .fifth_section{
+        margin-left: -90px;
+    }
+}
+
 @media (max-width: 991px) {
     body{
         width: 100%;
@@ -1219,8 +1246,9 @@ footer .foot{
             transform: translate(-50%, -50%) rotate(-360deg) translateX(150px);
         }
     }
+    
     .fifth_section{
-        margin-left: -120px;
+        margin-left: -150px;
     }
     .sixth_section{
         margin-left: -120px;
@@ -1237,6 +1265,16 @@ footer .foot{
     }
     
 }
+
+@media (max-width: 913px) {
+    .fifth_section{
+        margin: 20px;
+        margin-left: -170px;
+        gap: -10px;
+        
+    }
+}
+
 @media (max-width: 866px) {
     body{
         width: 100%;
@@ -1288,11 +1326,11 @@ footer .foot{
         }
     }
     .fifth_section{
-        margin-left: -160px;
+        margin-left: -190px;
         padding: 40px;
     }
     .fifth_section img{
-        margin-left: -50px;
+        margin-left: -80px;
     }
    
     
@@ -1361,6 +1399,9 @@ footer .foot{
         margin-left: -70px;
         height:auto;
     }
+    #home{
+        height: 700px;
+    }
     .home .intro h1{
         text-align: center;
         font-size: 35px;
@@ -1373,7 +1414,7 @@ footer .foot{
         margin-left: 170px;
     }
     .home .intro .below_home{
-        margin-left: -70px;
+        margin-left: -50px;
     }
     .container{
         margin-left: 220px;
@@ -1538,7 +1579,7 @@ footer .foot{
     }
     .moreforyou .foryou{
         width: 400px;
-        height: 170px;
+        height: auto;
         font-size: 15px;
         margin: 20px;
         padding: 20px;
@@ -1575,6 +1616,9 @@ footer .foot{
     
     .auth-buttons .two, .auth-buttons .one{
         display: none;
+    }
+    .home .below_home{
+        margin-left: -30px;
     }
     .fifth_section{
         margin-left: -250px;
@@ -1698,6 +1742,9 @@ body.dropdown-active {
     .sixth_section .but img{
         margin-left: 50px;
     }
+    .moreforyou .foryou{
+        margin: 10px;
+    }
     .testimonial{
         min-width: 200px;
         height: auto;
@@ -1743,10 +1790,13 @@ body.dropdown-active {
    .seventh_section {
     margin-left: -90px;
     padding: 20px;
-}
+    }
     .semi_home p{
         font-size: 12px;
         margin-left: 150px;
+    }
+    .moreforyou .foryou{
+        margin: 10px;
     }
     .testimonial{
         min-width: 200px;
@@ -1887,9 +1937,37 @@ body.dropdown-active {
     .middle h1{
         font-size: 15px;
     }
+    .home .below_home{
+        padding-left: 18px;
+    }
     .testimonial{
         min-width: 200px;
         height: auto;
+    }
+    .five_sections{
+        margin-left: 20px;
+    }
+    .moreforyou {
+        margin: 20px;
+    
+        }
+    .moreforyou .foryou .box{
+        width: 10%;
+    }
+    .semi_home{
+        margin: 10px;
+    }
+    .three_logos{
+        margin-left: -30px;
+    }
+    #produ{
+        margin-left: 30px;
+    }.semi_home p{
+        margin-left: 12.5rem;
+        font-size: 10px;
+    }
+    .semi_home img{
+        margin-left: 11.5rem;
     }
     /* .testimonial-container img{
         width: 20px;
