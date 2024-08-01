@@ -72,7 +72,7 @@ header{
 .nav-item > a {
     display: block;
     color:#3e388b;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -341,7 +341,7 @@ section{
 }
 .below_home p{
     font-size: 12px;
-    color: rgb(170, 168, 168);
+    color: rgb(70, 69, 69);
     margin-top: 20px;
 }
 
@@ -514,7 +514,7 @@ section{
     box-shadow: 0px 0px 5px 0px rgb(226, 225, 225);
     padding: 10px;
     font-size: 12px;
-    color: #463F9E;
+    color:#40196d;
     font-weight: bolder;
     width: 25%;
     height: auto;
@@ -564,10 +564,16 @@ section{
     font-size: 30px;
 }
 .third_section .your p{
-    color: rgb(172, 143, 172);
+    color: rgb(70, 69, 69);
+}
+.third_section a{
+    color:#3e388b;
 }
 .fourth_section{
     max-width: 100%;
+}
+.fourth_section a{
+    color:#3e388b;
 }
 .fourth_section .text_boxes{
     display: flex;
@@ -590,7 +596,7 @@ section{
     margin-top: -30px;
 }
 .fourth_section .me p{
-    color: rgb(172, 143, 172);
+    color: rgb(70, 69, 69);
 }
 .fifth_section{
     max-width: 100%;
@@ -601,7 +607,10 @@ section{
     font-weight: bolder;
 }
 .fifth_section .money p{
-    color: rgb(172, 143, 172);
+    color: rgb(70, 69, 69);
+}
+.fifth_section a{
+    color:#3e388b;
 }
 .fifth_section .spend{
     width: 100%;
@@ -620,6 +629,9 @@ section{
 .sixth_section{
     max-width: 100%;
 }
+.sixth_section a{
+    color:#3e388b;
+}
 .sixth_section .but{
     display: flex;
     gap: 50px;
@@ -635,11 +647,14 @@ section{
     font-weight: bolder;
 }
 .sixth_section .but .but2 p{
-    color: rgb(172, 143, 172);
+    color: rgb(70, 69, 69);
     width: 100%;
 }
 .seventh_section{
     max-width: 100%;
+}
+.seventh_section a{
+    color:#3e388b;
 }
 .seventh_section .life{
     display: flex;
@@ -652,7 +667,7 @@ section{
     font-weight: bolder;
 }
 .seventh_section .milk p{
-    color: rgb(172, 143, 172);
+    color: rgb(70, 69, 69);
 }
 .seventh_section img{
     width: 400px;
@@ -826,6 +841,7 @@ tbody td{
 }
 .moreforyou .foryou a{
     font-weight: bold;
+    color:#3e388b;
 }
 .semi_home{
     width: 80%;
@@ -911,7 +927,7 @@ tbody td{
 }
 .country p{
     font-size: 13px;
-    color:rgb(128, 127, 127);
+    color: rgb(70, 69, 69);
     margin: 10px;
     /* font-weight: bolder; */
 }
